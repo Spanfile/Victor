@@ -1,6 +1,8 @@
-![Victor Logo](http://i.imgur.com/c4kfrBo.png)
-======
-*Because nobody likes writing massive qualifiers and type names over and over.*
+<p align="center">
+  <img src="http://i.imgur.com/c4kfrBo.png"></img>
+  <i>Because nobody likes writing massive qualifiers and type names over and over.</i>
+</p>
+
 
 ##So concise, your fingers will thank you.
 
