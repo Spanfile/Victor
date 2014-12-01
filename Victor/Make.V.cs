@@ -13,7 +13,7 @@ namespace Victor
         /// <param name="x">X component.</param>
         /// <param name="y">Y component.</param>
         /// <returns></returns>
-        public static V2 V2(float x, float y) => new V2(x, y);
+        public static V2 V(float x, float y) => new V2(x, y);
 
         /// <summary>
         /// Makes a (1, 0) vector.
