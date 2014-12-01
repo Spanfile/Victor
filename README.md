@@ -1,10 +1,14 @@
 Victor
 ======
+*Because nobody likes writing massive qualifiers and type names over and over.*
 
 ##So concise, your fingers will thank you.
-Nobody likes writing massive qualifiers and type names over and over. That problem ends here.
 
-**Victor** is a collection of commonly used data types, remastered with one-letter naming conventions. Between annoying type names (e.g. `IEnumerable<T>`) and annoying method names (e.g. `Tuple.Create`, `Console.writeLine`), you may realize that these two simple things can clutter up your code a lot. You could use type name aliases, but this is a process you would need to repeat for every source file you have. Even if you don't mind that, utility methods can sometimes be pretty long by themselves (e.g. `String.IsNullOrWhitespace`) and cumulatively take up a considerable chunk of your time to write. With Victor, all these problems are gone.
+Between annoying type names (e.g. `IEnumerable<T>`) and annoying method names (e.g. `Tuple.Create`, `Console.writeLine`), you may realize that these two simple things can clutter up your code a lot. You could use type name aliases, but this is a process you would need to repeat for every source file you have. Even if you don't mind that, utility methods can sometimes be pretty long by themselves (e.g. `String.IsNullOrWhitespace`) and cumulatively take up a considerable chunk of your time to write.
+
+These problems end here.
+
+**Victor** is a collection of commonly used data types, remastered with one-letter naming conventions. Here's what it has so far:
 
 ###Tuples
 
