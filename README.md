@@ -1,4 +1,4 @@
-Victor
+![Victor Logo](http://i.imgur.com/c4kfrBo.png)
 ======
 *Because nobody likes writing massive qualifiers and type names over and over.*
 
