@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace Victor
 {
-    public sealed class V2
+    [StructLayout(LayoutKind.Sequential)]
+    public struct V2
     {
         /// <summary>
         /// X component.
@@ -60,6 +62,10 @@ namespace Victor
         /// Sum of the components.
         /// </summary>
         public float sum => x + y;
+
+        public V3 V3() => new V3(x, y, 0);
+
+        public V3 V3(float z) => new V3(x, y, z);
 
         public static V2 operator +(V2 a, V2 b) => new V2(a.x + b.x, a.y + b.y);
 
