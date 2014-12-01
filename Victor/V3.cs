@@ -85,6 +85,11 @@ namespace Victor
 
         public float sum => x + y + z;
 
+        /// <summary>
+        /// Makes a tuple representing the vector.
+        /// </summary>
+        public T<float, float, float> tuple => new T<float, float, float>(x, y, z);
+
         public static V3 operator +(V3 a, V3 b) => new V3(a.x + b.x, a.y + b.y, a.z + b.z);
 
         public static V3 operator -(V3 a, V3 b) => new V3(a.x - b.x, a.y - b.y, a.z - b.z);

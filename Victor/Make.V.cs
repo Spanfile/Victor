@@ -82,5 +82,21 @@ namespace Victor
         /// <param name="b">Second vector.</param>
         /// <returns></returns>
         public static float dot(V3 a, V3 b) => (a * b).sum;
+
+        /// <summary>
+        /// Gets the distance between two 2D vectors.
+        /// </summary>
+        /// <param name="a">First vector.</param>
+        /// <param name="b">Second vector.</param>
+        /// <returns></returns>
+        public static float dist(V2 a, V2 b) => (b - a).len;
+
+        /// <summary>
+        /// Gets the distance between two 3D vectors.
+        /// </summary>
+        /// <param name="a">First vector.</param>
+        /// <param name="b">Second vector.</param>
+        /// <returns></returns>
+        public static float dist(V3 a, V3 b) => (b - a).len;
     }
 }
