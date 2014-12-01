@@ -35,9 +35,12 @@ var concat = t.a + t.b + t.c; // "ABC";
 Victor has 2D and 3D vecors (so far). They are just as easy to work with:
 ```cs
 // Vector creation
-V3 pos = V(0, 10, 0);
-V3 target = V(100, 50, 20);
-float dist = pos.dist(target);
+V3 a = V(0, 10, 0);
+V3 b = V(100, 50, 20);
+
+// Vector calculations
+float distance = dist(a, b);
+float angle = angle(a, b);
 
 // Unit shortcuts
 WriteLine(X3); // (1, 0, 0)
