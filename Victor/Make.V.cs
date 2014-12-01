@@ -60,6 +60,14 @@ namespace Victor
         public static float angle(V3 a, V3 b) => ((a.unit * b.unit).sum + 1f) / PI2F;
 
         /// <summary>
+        /// Gets the cross product of two 3D vectors.
+        /// </summary>
+        /// <param name="a">First vector.</param>
+        /// <param name="b">Second vector.</param>
+        /// <returns></returns>
+        public static V3 cross(V3 a, V3 b) => new V3(a.y * b.z - a.z * b.y, a.z * b.x - a.x * b.z, a.x * b.y - a.y - b.x);
+
+        /// <summary>
         /// Gets the dot product of two 2D vectors.
         /// </summary>
         /// <param name="a">First vector.</param>

@@ -20,6 +20,29 @@ namespace Victor
         public float z;
 
         /// <summary>
+        /// Gets the component at the index.
+        /// </summary>
+        /// <param name="n">Component index.</param>
+        /// <returns></returns>
+        public float this[int n]
+        {
+            get
+            {
+                switch(n)
+                {
+                    case 0:
+                        return x;
+                    case 1:
+                        return y;
+                    case 2:
+                        return z;
+                    default:
+                        throw new ArgumentOutOfRangeException("value");
+                }
+            }
+        }
+
+        /// <summary>
         /// Makes a new 3D vector.
         /// </summary>
         /// <param name="x">X component.</param>
