@@ -1,7 +1,5 @@
 <p align="center">
   <img src="http://i.imgur.com/c4kfrBo.png"></img>
-  <br/>
-  <i>Because nobody likes writing massive qualifiers and type names over and over.</i>
 </p>
 
 
