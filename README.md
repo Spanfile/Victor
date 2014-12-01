@@ -30,5 +30,24 @@ var t = T("A", "B", "C"); // T<string, string, string>
 var concat = t.a + t.b + t.c; // "ABC";
 ```
 
+###Vectors
+
+Victor has 2D and 3D vecors (so far). They are just as easy to work with:
+```cs
+// Vector creation
+V3 a = V(0, 10, 0);
+V3 b = V(100, 50, 20);
+
+// Vector calculations
+float distance = dist(a, b);
+float angle = angle(a, b);
+
+// Unit shortcuts
+WriteLine(X3); // (1, 0, 0)
+WriteLine(Y3); // (0, 1, 0)
+WriteLine(Z3); // (0, 0, 1)
+WriteLine(X3 + Y3 + Z3); // (1, 1, 1)
+```
+
 ##Development
 Victor is in the early stages of development. Eventually, I hope to add more useful data structures like vectors, matrices, bit fields, and more. The idea is to make them as easy as possible to work with, and drastically reduce messy code.
