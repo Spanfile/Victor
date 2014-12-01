@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Victor
+﻿namespace Victor
 {
-    public static class Make
+    /// <summary>
+    /// Makes things.
+    /// </summary>
+    public static partial class Make
     {
         /// <summary>
         /// Makes a 1-tuple.
